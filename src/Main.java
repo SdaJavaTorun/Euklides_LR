@@ -1,8 +1,4 @@
-package Zadanie_Funkcja.Silnia;
-
 import java.util.Scanner;
-
-import static java.lang.System.exit;
 
 public class Main {
 
@@ -22,9 +18,9 @@ public class Main {
 
         while (a != b) {
             if (a > b)
-                a -= b;
+                a = a - b;
             else
-                b -= a;
+                b = b-  a;
         }
         System.out.println("NWD: " + a);
     }
